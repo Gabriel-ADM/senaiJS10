@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimo exercicio</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+
+<body>
+    <script src="script10.js"></script>
+    <div class="question">
+        <h1>Questão 01:<span>Calcular a média ponderada de 3 notas</span></h1>
+        <p id="firstQuestion">Resultado: A média das 3 notas foi xx.</p>
+        <label for="">Nota 01:</label>
+        <input type="number" id="a">
+        <label for="">Nota 02:</label>
+        <input type="number" id="b">
+        <label for="">Nota 03:</label>
+        <input type="number" id="c">
+        <input type="button" value="Calcular" onclick="firstResult()">
+    </div>
+    <div class="question">
+        <h1>Questão 02:<span> Senha Fixa </span></h1>
+        <p id="secondQuestion">Resultado: xxxxx<span>(Senha: 2002)</span></p>
+        <label for="">Digite a senha:</label>
+        <input type="password" id="password">
+        <input type="button" value="Calcular" onclick="checkPassword()">
+    </div>
+    <div class="question">
+        <h1>Questão 03:<span> Intervalo [0,25], [25,50], [50,75], [75,100]</span></h1>
+        <p id="thirdQuestion">Resultado: O valor digitado se encontra no intervalo [xx,xx].</p>
+        <label for="">Valor:</label>
+        <input type="number" id="x">
+        <input type="button" value="Calcular" onclick="thirdResult() ">
+    </div>
+    <div class="question">
+        <h1>Questão 04:<span> Aumento de Salário</span></h1>
+        <p id="fourthQuestion">Resultado: Novo salario: xx.xx, Ganho: xx.xx, Percentual: xx</p>
+        <label for="">Salário atual:</label>
+        <input type="number" id="originalPayment">
+        <input type="button" value="Calcular" onclick="fourthResult()">
+    </div>
+    <div class="question">
+        <h1>Questão 05:<span> Imposto de Renda <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1051"
+                    target="_blank">detalhar</a></span></h1>
+        <p id="incomeTax">Resultado:Imposto xxxxx</p>
+        <label for="">Renda:</label>
+        <input type="number" id="income">
+        <input type="button" value="Calcular" onclick="fifthResult()">
+    </div>
+</body>
+
+</html>
